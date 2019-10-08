@@ -1,0 +1,92 @@
+html
+{
+    background-image: 
+    Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),Linear-gradient(127deg, black, black 70.71%),Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);;
+
+}
+.image
+{
+    margin-top: "3px";
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+.nav{
+    display: inline-block;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  
+   
+    
+}
+a{
+    color: aliceblue;
+}
+a:hover {
+color: red;
+}
+.HV{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.logo{
+
+margin-top: 5px;
+margin-left: 5px;
+position: absolute;
+
+
+}
+.courses{
+    position: absolute;
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+    left: 40%;
+top: 50%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.contact{
+
+    position: absolute;
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+    left: 40%;
+top: 50%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.input{
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+}
+.button{
+   border-radius: 7px;
+    background-color: mediumblue;
+    width: 100px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    font-size: 20px;
+    background-blend-mode: luminosity;
+
+}
+hr{
+    color: aliceblue;
+}
+.feedback{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: aliceblue;
+}

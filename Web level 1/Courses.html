@@ -1,0 +1,56 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+        <div class="logo">
+                <img src="res/image4.png" width="50px">
+            </div>
+        <center>
+        <ul>
+                
+                <li class="nav"><a href="Home.html" >  Home  </a></li>
+                <li class="nav"><a href="Courses.html" >  Courses  </a></li>
+                <li class="nav"><a href="Contact.html" >  Contact  </a></li>
+            </ul>
+       
+        </center>
+        <div class="image">
+                <img src="res/image5.png" width="100%">
+            </div>
+   
+            <center>
+                <h1 class="courses">courses</h1>
+                <h2 class="feedback">feedback</h2>
+                <br>
+                <br>
+                <button onclick="bold()">B</button>
+                <button onclick="italic()">I</button>
+                <button onclick="underline()">Underline</button>
+                <select  onchange="taille(this)">
+                    <option value="15px" >15px</option>
+                    <option value="20px">20px</option>
+                    <option value="25px">25px</option>
+                </select>
+                <select  onchange="family(this)">
+                        <option value="Arial" >Arial</option>
+                        <option value="Georgia" >Georgia</option>
+                        <option value="Cambria" selected>Cambria</option>
+                    </select>
+
+
+                <br>
+
+                <textarea cols="80" rows="10" id="mytext"></textarea>
+            </center>
+        
+       
+</body>
+<script src="js/main.js"></script>
+</html>
